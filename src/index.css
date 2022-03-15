@@ -1,22 +1,26 @@
 * {
   margin: 0;
-  font-family: "Roboto Light";
-  color: rgba(17, 17, 17, 0.5);
-}
-body {
-  background-color: rgba(255, 255, 255, 0.89);
-  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;;
+  color: #040404;
 }
 a {
-  background-color: #057905;
-  color: #fff;
+  background-color: rgba(67, 27, 5, 0.73);
+  color: #ffffff;
   border-radius: 0.3rem;
+}
+input, textarea, select {
+  background-color: rgba(17, 17, 17, 0.15);
+  font-size: 1rem;
 }
 .App {
   box-sizing: border-box;
   width: 100vw;
   height: 100vh;
   margin: 0 auto;
+  background-image: url("https://storage.needpix.com/rsynced_images/aerial-3246120_1280.jpg");
+  color: #040404;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .navbar {
   padding: 1rem;
@@ -24,12 +28,16 @@ a {
   align-items: center;
   max-width: 50rem;
   margin: 0 auto;
-  border: double 10px rgba(255, 255, 255, 0.7);
+  border: double 10px rgba(17, 17, 17, 0.9);
   border-radius: 0.7rem;
-  background-color: rgba(197, 197, 169, 0.21);
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #040404;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 .navbar h1 {
-  color: #057905;
+  color: rgba(17, 17, 17, 0.7);
 }
 .navbar .links {
   margin-left: auto;
@@ -51,15 +59,15 @@ a {
   max-height: 50rem;
   margin: 3rem auto;
   padding: 1.5rem;
-  background-color: rgba(197, 197, 169, 0.21);
+  background-color: rgb(255, 255, 255);
   border-radius: 0.5rem;
   opacity: 0.9;
-  border: double 10px rgba(255, 255, 255, 0.7)
+  border: double 10px rgba(17, 17, 17, 0.9);
 }
 .blog-preview {
   padding: 0.7rem 1rem;
   margin: 1rem 0;
-  border: 2px solid #057905;
+  border: 2px solid rgba(17, 17, 17, 0.5);
   border-radius: 0.5rem;
 }
 .blog-preview:hover {
@@ -68,13 +76,13 @@ a {
   padding: 0.8rem;
   left: auto ;
   border-radius: 0.6rem;
-  background-color: rgba(197, 197, 169, 0.15);
-  border: 3px solid #055f05;
+  background-color: rgba(139, 133, 133, 0.43);
+  border: 3px solid rgba(67, 27, 5, 0.73);
 
 }
 .blog-preview h2 {
   font-size: 1.5rem;
-  color: #057905;
+  color: rgba(17, 17, 17, 0.85);
   margin-bottom: 0.5rem;
 }
 .blog-preview a{
@@ -83,15 +91,15 @@ a {
 }
 .blog-details h2 {
   font-size: 1.3rem;
-  color: #057905;
+  color: rgb(43, 29, 6);
   margin-bottom: 0.7rem;
 }
 .blog-details div {
   margin: 1.3rem 0;
 }
 .blog-details button {
-  background: #057905;
-  color: #fff;
+  background: rgba(67, 27, 5, 0.73);
+  color: #040404;
   border: 0;
   padding: 0.5rem;
   border-radius: 0.5rem;
@@ -109,20 +117,21 @@ a {
 }
 .create h2 {
   font-size: 1.6rem;
-  color: #057905;
+  border-bottom: 3px solid #ffffff;
+  color: rgba(17, 17, 17, 0.9);
   margin-bottom: 2rem;
 }
 .create input, .create textarea, .create select {
   width: 100%;
   padding: 0.3rem 0.5rem;
   margin: 0.5rem 0;
-  border: 1px solid #ddd;
+  border: 1px solid rgba(43, 29, 6, 0.68);
   box-sizing: border-box;
   display: block;
 }
 .create button {
-  background: #057905;
-  color: #fff;
+  background: rgba(67, 27, 5, 0.73);
+  color: #ffffff;
   border: 0;
   padding: 0.5rem;
   border-radius: 0.5rem;
@@ -133,7 +142,7 @@ a {
   color: #040404;
   box-shadow: 8px 5px 5px rgba(0,0,0,0.1);
   font-weight: bold;
-  transition: 0.5s
+  transition: 0.5s;
 }
 
 

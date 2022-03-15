@@ -8,7 +8,7 @@ function AboutMe(props) {
         <div className="home">
             { error && <div>{ error }</div> }
             { isPending && <div>Loading...</div> }
-            <h2>Arkadiusz Kłeczek</h2>
+            <h1>Arkadiusz Kłeczek</h1>
             <h3><span>Class:</span> Beginner programmer</h3>
             <h3><span>Level:</span> 30</h3>
             <br/>
