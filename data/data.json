@@ -1,0 +1,34 @@
+{
+  "blogs": [
+    {
+      "title": "My Code wars routine",
+      "body": "Do them daily, at least one. Its good practice, to gain programmer thinking. It also help me to train my Deep Work and habits forming",
+      "topic": "Code wars",
+      "id": 1
+    },
+    {
+      "title": "Read at leas chapter a day",
+      "body": "Currently im on `Atomic Habits` by James Clear. It shows how developing habits can change life by changing at least 1% a day. Also provides a lot of great examples, and tasks. ",
+      "topic": "Personal Development",
+      "id": 2
+    },
+    {
+      "title": "aa",
+      "body": "aa",
+      "topic": "",
+      "id": 4
+    },
+    {
+      "title": "aa",
+      "body": "aa",
+      "topic": "Personal Development",
+      "id": 5
+    },
+    {
+      "title": "aaa",
+      "body": "aaa",
+      "topic": "Code wars",
+      "id": 7
+    }
+  ]
+}
